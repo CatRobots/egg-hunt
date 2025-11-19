@@ -1,0 +1,1 @@
+execute as @a[predicate=egg_hunt:hasdragonegg, scores={HasStarted=1}] run function egg_hunt:huntedplayer
