@@ -2,5 +2,7 @@
     "pack": {
         "description": "A dragon egg hunt datapack for 1.21.9+",
         "pack_format": 88,
+        "min_format": 88,
+        "max_format": 88
     }
 }
