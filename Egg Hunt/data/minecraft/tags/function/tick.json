@@ -1,6 +1,5 @@
 {
     "values": [
-        "egg_hunt:checkstart",
-        "egg_hunt:timer"
+        "egg_hunt:checks"
     ]
 }

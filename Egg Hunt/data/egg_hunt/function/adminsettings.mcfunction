@@ -1,0 +1,1 @@
+dialog show @s egg_hunt:adminsettings

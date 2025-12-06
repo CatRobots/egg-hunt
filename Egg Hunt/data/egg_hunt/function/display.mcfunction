@@ -1,0 +1,2 @@
+execute as @a[predicate=egg_hunt:hasegg] run tellraw @a[scores={CheckPlayerWithEgg=1}] [{selector:"@s"},{"text":" has the egg!","color":"gold"}]
+execute as @a[scores={Settings=1..}] run dialog show @s egg_hunt:playersettings

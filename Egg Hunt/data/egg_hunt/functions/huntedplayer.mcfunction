@@ -1,1 +1,0 @@
-execute as @a[predicate=egg_hunt:hasdragonegg] run effect give @s minecraft:glowing 1 0 true

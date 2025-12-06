@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Egg Hunt Player Settings",
+  "external_title": "Player Settings",
+  "inputs": [],
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "none",
+  "exit_action": {
+    "label": "Return to game"
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Change Actionbar Style",
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ActionBarDisplay"
+      }
+    },
+    {
+      "label": "Change Bossbar Style",
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger BossBarDisplay"
+      }
+    },
+    {
+      "label": "Reveal player with dragon egg",
+      "width": 200,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger CheckPlayerWithEgg"
+      }
+    }
+  ]
+}

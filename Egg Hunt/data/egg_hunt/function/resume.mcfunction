@@ -1,0 +1,3 @@
+scoreboard players set #GameStarted GameStarted 1
+title @a title ""
+title @a subtitle [{"color":"#0000FF","text":"T"},{"color":"#0500FF","text":"h"},{"color":"#0A00FF","text":"e "},{"color":"#0E00FF","text":"g"},{"color":"#1300FF","text":"a"},{"color":"#1800FF","text":"m"},{"color":"#1D00FF","text":"e "},{"color":"#2100FF","text":"h"},{"color":"#2600FF","text":"a"},{"color":"#2B00FF","text":"s "},{"color":"#3000FF","text":"b"},{"color":"#3400FF","text":"e"},{"color":"#3900FF","text":"e"},{"color":"#3E00FF","text":"n "},{"color":"#4300FF","text":"r"},{"color":"#4700FF","text":"e"},{"color":"#4C00FF","text":"s"},{"color":"#5100FF","text":"u"},{"color":"#5600FF","text":"m"},{"color":"#5A00FF","text":"e"},{"color":"#6400FF","text":"d"}]

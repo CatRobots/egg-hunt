@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Egg Hunt Admin Settings",
+  "external_title": "Admin Settings",
+  "can_close_with_escape": true,
+  "pause": false,
+  "after_action": "close",
+  "exit_action": {
+    "label": "Return to game"
+  },
+  "columns": 2,
+  "actions": [
+    {
+      "label": "Start Egg Hunt",
+      "tooltip": "Start game\n(Requires confirmation) ",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function egg_hunt:startegghunt"
+      }
+    },
+    {
+      "label": "Test Timer Display",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function egg_hunt:timerdisplay"
+      }
+    },
+    {
+      "label": "Pause Game",
+      "tooltip": "Pauses the game\n(Only use while unpaused)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function egg_hunt:pause"
+      }
+    },
+    {
+      "label": "Continue Game",
+      "tooltip": "Unpauses the game\n(Only use while paused)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function egg_hunt:resume"
+      }
+    }
+  ]
+}
